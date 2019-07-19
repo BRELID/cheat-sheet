@@ -1,0 +1,11 @@
+Pour utiliser Github avec Visual Studio Code, il suffit de suivre simplement cette procédure :
+
+1) Créer d'abord le repo dans Github
+2) Créer un dossier de réception en local sur votre PC/Mac
+3) Dans Visual Studio Code, sélectionner File -> Add Folder to Workspace -> Le dossier que vous venez de créer en local
+4) Dans Github copiez le lien de votre repo dans "Clone or download"
+5) Ouvrez ensuite un terminal (powershell, cmd, terminal, shell, etc.) puis tapez :
+  git config --global user.name <VOTRE_USER_ID_GITHUB>
+  git clone <URL_DE_VOTRE_REPO_QUE_VOUS_AVEZ_COPIEZ>
+
+Voilà c'est terminé !
